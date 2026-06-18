@@ -1,5 +1,6 @@
 <div align="center">
   <img src="sonic.gif" alt="Sonic" width="120"/>
+  <img src="flash.gif" alt="The Flash" width="120"/>
 </div>
 
 # 💫 About Me:
