@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/Zenskistudios">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=922&text=Hello!%20I%E2%80%99m%20Jedidiah%20Jegede" alt="Hello! I’m Taiwo Jegede"/>
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=922&text=Hello!%20I%E2%80%99m%20Taiwo%20Jegede" alt="Hello! I’m Taiwo Jegede"/>
   </a>
 </p>
 
