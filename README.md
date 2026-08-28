@@ -77,7 +77,7 @@
 ## 🐍 Watch the Snake Eat My Contributions
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Zenskistudio/Zenskistudio/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="95%"/>
+  <img src="https://raw.githubusercontent.com/Zenskistudios/Zenskistudios/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" width="95%"/>
 </p>
 
 ### 💭 Dev Quote
