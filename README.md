@@ -71,7 +71,21 @@
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Zenskistudios&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+  <img
+    width="100%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Zenskistudios&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true"
+    alt="GitHub activity graph"
+  />
+</p>
+
+## 🐍 Watch the Snake Eat My Contributions
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/Zenskistudios/Zenskistudios/output/github-contribution-grid-snake-dark.svg"
+    alt="GitHub Contribution Snake"
+    width="95%"
+  />
 </p>
 
 ### 💭 Dev Quote
