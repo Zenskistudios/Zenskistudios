@@ -68,15 +68,11 @@
   <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=Zenskistudios&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
-### 📈 Contribution Graph
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Zenskistudios&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true"
-    alt="GitHub activity graph"
-  />
-</p>
+<img
+  src="https://YOUR-ACTIVITY-GRAPH.vercel.app/graph?username=Zenskistudios"
+  alt="GitHub activity graph"
+  width="100%"
+/>
 
 ## 🐍 Watch the Snake Eat My Contributions
 
