@@ -18,7 +18,7 @@
 
 🌱 &nbsp;I'm currently learning **Rust and distributed systems**  
 💬 &nbsp;Ask me about **React,Node.js,API redesign**  
-😄 &nbsp;Pronouns: **her/She**
+
 
 ### 🛠️ Tech Stack
 
