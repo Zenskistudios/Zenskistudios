@@ -1,11 +1,11 @@
 <p align="center">
   <a href="https://github.com/Zenskistudios">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede&fontColor=ffffff&fontSize=52&fontAlignY=38&desc=aka%20Zenski%20%7C%20Zenski%20Studios&descSize=20&descAlignY=60" alt="Jedidiah Jegede (Zenski)" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=20&descAlignY=60" alt="Jedidiah Jegede Olomola" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&height=44&lines=Full-stack+Developer;Web3+%26+Solana+Builder;Learning+Rust+%26+Distributed+Systems;Building+for+Nigeria+and+Africa" alt="Typing headlines" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&height=44&lines=Hey%2C+I%27m+Olomola+%F0%9F%91%8B;I+build+stuff+for+the+web;Web3+%26+Solana+tinkerer;Currently+nerding+out+on+Rust;Building+for+Nigeria+and+Africa" alt="Typing headlines" />
 </p>
 
 <p align="center">
