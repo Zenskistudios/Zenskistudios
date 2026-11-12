@@ -111,7 +111,9 @@
   <img src="https://streak-stats.demolab.com?user=Zenskistudios&theme=tokyonight&hide_border=true&background=00000000&ring=2ea043&fire=2ea043&currStreakLabel=2ea043" alt="GitHub streak" />
 </p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zenskistudios&theme=tokyo-night&hide_border=true&bg_color=00000000&color=2ea043&line=2f81f7&point=ffffff" alt="GitHub activity graph" width="100%" />
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="100%" />
+</p>
 
 ## 🐍 Watch the Snake Eat My Contributions
 
