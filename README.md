@@ -1,9 +1,6 @@
 <p align="center">
   <a href="https://github.com/Zenskistudios">
-    <picture>
-      <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=220&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=60&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=36&descAlignY=63" />
-      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=20&descAlignY=60" alt="Jedidiah Jegede Olomola" />
-    </picture>
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=20&descAlignY=60" alt="Jedidiah Jegede Olomola" />
   </a>
 </p>
 
