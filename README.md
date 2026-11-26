@@ -148,9 +148,10 @@
 
 ## 💭 Dev Quote
 
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
-</p>
+```text
+"Talk is cheap. Show me the code."
+- Linus Torvalds
+```
 
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/Zenskistudios">Zenskistudios</a> · Turning coffee into clean, tested code</i></p>
