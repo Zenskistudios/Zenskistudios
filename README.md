@@ -29,13 +29,9 @@
 ## 🧪 Featured Projects
 
 - **ZenOS**: Browser-based WebOS-style desktop environment, being rebuilt from scratch with a modular architecture<br><sub>TypeScript, React</sub>
-- **TrustFlow**: Solana-powered USDC escrow platform for African freelancers<br><sub>Solana, Rust, TypeScript</sub>
 - **Bizkit**: SaaS platform for Nigerian MSMEs with social media integration<br><sub>Next.js, Node.js</sub>
 - **DataSaver NG**: Chrome extension that blocks ads and trackers and shows your data savings in Naira<br><sub>JavaScript</sub>
-- **Confluence**: Shared living canvas built for the Hack the Arts hackathon<br><sub>TypeScript</sub>
 - **Logic-Loom**: Web app for building digital logic circuits: gates, wires and truth tables<br><sub>TypeScript</sub>
-
-<sub>Pin your favourite repos on your profile and link each row above to its repo.</sub>
 
 ## 🛠️ Tech Stack
 
