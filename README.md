@@ -28,10 +28,10 @@
 
 ## 🧪 Featured Projects
 
-- **ZenOS**: Browser-based WebOS-style desktop environment, being rebuilt from scratch with a modular architecture<br><sub>TypeScript, React</sub>
-- **Bizkit**: SaaS platform for Nigerian MSMEs with social media integration<br><sub>Next.js, Node.js</sub>
+- **ZenOS**: Browser-based WebOS-style desktop environment, being rebuilt from scratch with a modular architecture<br><sub>JavaScript, React</sub>
+- **Bizkit**: SaaS platform for Nigerian MSMEs with social media integration<br><sub>TypeScript, Next.js, Node.js</sub>
 - **DataSaver NG**: Chrome extension that blocks ads and trackers and shows your data savings in Naira<br><sub>JavaScript</sub>
-- **Logic-Loom**: Web app for building digital logic circuits: gates, wires and truth tables<br><sub>TypeScript</sub>
+- **Logic-Loom**: Web app for building digital logic circuits: gates, wires and truth tables<br><sub>JavaScript</sub>
 
 ## 🛠️ Tech Stack
 
