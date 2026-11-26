@@ -1,11 +1,14 @@
 <p align="center">
   <a href="https://github.com/Zenskistudios">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=20&descAlignY=60" alt="Jedidiah Jegede Olomola" />
+    <picture>
+      <source media="(max-width: 600px)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=220&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=60&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=36&descAlignY=63" />
+      <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:2f81f7&height=160&section=header&text=Jedidiah%20Jegede%20Olomola&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=building%20cool%20stuff%20from%20Lagos&descSize=20&descAlignY=60" alt="Jedidiah Jegede Olomola" />
+    </picture>
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=700&height=44&lines=Hey%2C+I%27m+Olomola+%F0%9F%91%8B;I+build+stuff+for+the+web;Web3+%26+Solana+tinkerer;Currently+nerding+out+on+Rust;Building+for+Nigeria+and+Africa" alt="Typing headlines" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=450&height=44&lines=Hey%2C+I%27m+Olomola+%F0%9F%91%8B;I+build+stuff+for+the+web;Web3+%26+Solana+tinkerer;Currently+nerding+out+on+Rust;Building+for+Nigeria+and+Africa" alt="Typing headlines" />
 </p>
 
 <p align="center">
@@ -28,14 +31,12 @@
 
 ## 🧪 Featured Projects
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **ZenOS** | Browser-based WebOS-style desktop environment, being rebuilt from scratch with a modular architecture | TypeScript, React |
-| **TrustFlow** | Solana-powered USDC escrow platform for African freelancers | Solana, Rust, TypeScript |
-| **Bizkit** | SaaS platform for Nigerian MSMEs with social media integration | Next.js, Node.js |
-| **DataSaver NG** | Chrome extension that blocks ads and trackers and shows your data savings in Naira | JavaScript |
-| **Confluence** | Shared living canvas built for the Hack the Arts hackathon | TypeScript |
-| **Logic-Loom** | Web app for building digital logic circuits: gates, wires and truth tables | TypeScript |
+- **ZenOS**: Browser-based WebOS-style desktop environment, being rebuilt from scratch with a modular architecture<br><sub>TypeScript, React</sub>
+- **TrustFlow**: Solana-powered USDC escrow platform for African freelancers<br><sub>Solana, Rust, TypeScript</sub>
+- **Bizkit**: SaaS platform for Nigerian MSMEs with social media integration<br><sub>Next.js, Node.js</sub>
+- **DataSaver NG**: Chrome extension that blocks ads and trackers and shows your data savings in Naira<br><sub>JavaScript</sub>
+- **Confluence**: Shared living canvas built for the Hack the Arts hackathon<br><sub>TypeScript</sub>
+- **Logic-Loom**: Web app for building digital logic circuits: gates, wires and truth tables<br><sub>TypeScript</sub>
 
 <sub>Pin your favourite repos on your profile and link each row above to its repo.</sub>
 
