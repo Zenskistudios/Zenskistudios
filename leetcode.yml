@@ -1,0 +1,74 @@
+name: Update LeetCode Card
+
+on:
+  schedule:
+    - cron: "23 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/leetcode.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: leetcode-card
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      LEETCODE_USERNAME: Olomola
+      CARD_PATH: leetcode-stats/card.svg
+    steps:
+      - uses: actions/checkout@v4
+
+      # If any check fails, the job stops here and the last good card stays in place.
+      - name: Download and validate the card
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 10 --retry-all-errors --max-time 30 \
+            --output "$RUNNER_TEMP/card.svg" \
+            "https://leetcard.jacoblin.cool/${LEETCODE_USERNAME}?theme=dark&radius=10"
+
+          # On errors the service can still answer 200 with placeholder numbers,
+          # so require a well-formed SVG with the right username and a real rank.
+          python3 - "$RUNNER_TEMP/card.svg" <<'PY'
+          import os, sys
+          import xml.etree.ElementTree as ET
+
+          root = ET.parse(sys.argv[1]).getroot()
+          text = {e.get("id"): (e.text or "").strip() for e in root.iter() if e.get("id")}
+          name = text.get("username-text", "")
+          rank = text.get("ranking", "").lstrip("#")
+          solved = text.get("total-solved-text", "")
+
+          if root.tag != "{http://www.w3.org/2000/svg}svg":
+              sys.exit("Response is not an SVG")
+          if name.lower() != os.environ["LEETCODE_USERNAME"].lower():
+              sys.exit(f"Service returned an error card: {name!r}")
+          if not (rank.isdigit() and int(rank) > 0):
+              sys.exit("Card has no valid ranking")
+          if not solved.isdigit():
+              sys.exit("Card has no solved total")
+          PY
+
+          cp "$RUNNER_TEMP/card.svg" "$CARD_PATH"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$CARD_PATH"
+          if git diff --cached --quiet; then
+            echo "Card unchanged"
+            exit 0
+          fi
+          git commit -m "chore: update LeetCode stats card"
+          git pull --rebase
+          git push

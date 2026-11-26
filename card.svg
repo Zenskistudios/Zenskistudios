@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="200" viewBox="0 0 500 200" role="img" aria-labelledby="title">
+  <title id="title">Olomola on LeetCode</title>
+  <rect x="0.5" y="0.5" width="499" height="199" rx="10" fill="#101010" stroke="#404040"/>
+  <g font-family="'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="250" y="72" font-size="30" font-weight="700" fill="#ffa116">&lt;/&gt;</text>
+    <text x="250" y="112" font-size="24" font-weight="700" fill="#f0f0f0">Olomola on LeetCode</text>
+    <text x="250" y="142" font-size="14" fill="#b0b0b0">Stats are not available here yet</text>
+    <text x="250" y="170" font-size="14" font-weight="600" fill="#2f81f7">Click to view my profile →</text>
+  </g>
+</svg>

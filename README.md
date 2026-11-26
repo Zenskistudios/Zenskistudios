@@ -115,6 +115,18 @@
   <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D contribution graph" width="100%" />
 </p>
 
+## 🧩 LeetCode Stats
+
+<p align="center">
+  <a href="https://leetcode.com/u/Olomola/">
+    <img src="./leetcode-stats/card.svg" alt="Olomola's LeetCode stats card. Open my LeetCode profile" width="500" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/Olomola/"><b>View my LeetCode profile →</b></a>
+</p>
+
 ## 🐍 Watch the Snake Eat My Contributions
 
 <p align="center">
