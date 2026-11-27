@@ -141,10 +141,21 @@
 
 ## 💭 Dev Quote
 
+<!-- QUOTE:START -->
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Talk%20is%20cheap.%20Show%20me%20the%20code.&author=Linus%20Torvalds" alt="Dev quote" />
+</p>
+
+<details>
+<summary>📋 Copy quote</summary>
+
 ```text
 "Talk is cheap. Show me the code."
 - Linus Torvalds
 ```
+
+</details>
+<!-- QUOTE:END -->
 
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/Zenskistudios">Zenskistudios</a> · Turning coffee into clean, tested code</i></p>

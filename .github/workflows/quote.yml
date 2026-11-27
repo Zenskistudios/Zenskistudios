@@ -1,0 +1,103 @@
+name: Update Dev Quote
+
+on:
+  schedule:
+    - cron: "41 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/quote.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dev-quote
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      # If anything fails, README.md is left as it was.
+      - name: Pick a quote and update the README
+        run: |
+          python3 - <<'PY'
+          import json, random, re, sys, urllib.parse, urllib.request
+
+          QUOTES = "https://raw.githubusercontent.com/mudroljub/programming-quotes-api/master/data/quotes.json"
+          CARD = "https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"
+          START, END = "<!-- QUOTE:START -->", "<!-- QUOTE:END -->"
+
+          def get(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "profile-readme"})
+              with urllib.request.urlopen(req, timeout=30) as res:
+                  return res.read().decode("utf-8")
+
+          with open("README.md", encoding="utf-8", newline="") as f:
+              readme = f.read()
+          if readme.count(START) != 1 or readme.count(END) != 1:
+              sys.exit("Quote markers are missing from README.md")
+          before, rest = readme.split(START)
+          current, after = rest.split(END)
+
+          choices = []
+          for item in json.loads(get(QUOTES)):
+              if not isinstance(item, dict):
+                  continue
+              text = " ".join(str(item.get("text") or "").split())
+              author = " ".join(str(item.get("author") or "").split())
+              # The card service does not escape these characters.
+              if re.search(r"[<>&`]", text + author):
+                  continue
+              if 0 < len(text) <= 180 and 0 < len(author) <= 60 and text not in current:
+                  choices.append((text, author))
+          if not choices:
+              sys.exit("No usable quotes found")
+          text, author = random.choice(choices)
+
+          params = urllib.parse.urlencode({"quote": text, "author": author}, quote_via=urllib.parse.quote)
+          url = f"{CARD}&{params}"
+          card = get(url)
+          if text not in card or author not in card:
+              sys.exit("The card does not show the chosen quote")
+
+          nl = "\r\n" if "\r\n" in readme else "\n"
+          block = nl.join([
+              "",
+              '<p align="center">',
+              f'  <img src="{url}" alt="Dev quote" />',
+              "</p>",
+              "",
+              "<details>",
+              "<summary>📋 Copy quote</summary>",
+              "",
+              "```text",
+              f'"{text}"',
+              f"- {author}",
+              "```",
+              "",
+              "</details>",
+              "",
+          ])
+          with open("README.md", "w", encoding="utf-8", newline="") as f:
+              f.write(before + START + block + END + after)
+          PY
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Quote unchanged"
+            exit 0
+          fi
+          git commit -m "chore: update dev quote"
+          git pull --rebase
+          git push
