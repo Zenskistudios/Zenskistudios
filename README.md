@@ -146,15 +146,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=C%20makes%20it%20easy%20to%20shoot%20yourself%20in%20the%20foot%3B%20C%2B%2B%20makes%20it%20harder%2C%20but%20when%20you%20do%20it%20blows%20your%20whole%20leg%20off.&author=Bjarne%20Stroustrup" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=If%20you%20need%20more%20than%203%20levels%20of%20indentation%2C%20you%27re%20screwed%20anyway%2C%20and%20should%20fix%20your%20program.&author=Linus%20Torvalds" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."
-- Bjarne Stroustrup
+"If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program."
+- Linus Torvalds
 ```
 
 </details>
