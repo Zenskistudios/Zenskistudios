@@ -146,15 +146,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Software%20engineering%20is%20the%20part%20of%20computer%20science%20which%20is%20too%20difficult%20for%20the%20computer%20scientist.&author=Friedrich%20Bauer" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=C%20makes%20it%20easy%20to%20shoot%20yourself%20in%20the%20foot%3B%20C%2B%2B%20makes%20it%20harder%2C%20but%20when%20you%20do%20it%20blows%20your%20whole%20leg%20off.&author=Bjarne%20Stroustrup" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"Software engineering is the part of computer science which is too difficult for the computer scientist."
-- Friedrich Bauer
+"C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do it blows your whole leg off."
+- Bjarne Stroustrup
 ```
 
 </details>
