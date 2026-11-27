@@ -143,15 +143,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Talk%20is%20cheap.%20Show%20me%20the%20code.&author=Linus%20Torvalds" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Software%20is%20a%20discipline%20of%20detail%2C%20and%20that%20is%20a%20deep%2C%20horrendous%20fundamental%20problem%20with%20software.&author=L.%20Peter%20Deutsch" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"Talk is cheap. Show me the code."
-- Linus Torvalds
+"Software is a discipline of detail, and that is a deep, horrendous fundamental problem with software."
+- L. Peter Deutsch
 ```
 
 </details>
