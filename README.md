@@ -146,15 +146,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=If%20you%20need%20more%20than%203%20levels%20of%20indentation%2C%20you%27re%20screwed%20anyway%2C%20and%20should%20fix%20your%20program.&author=Linus%20Torvalds" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=To%20achieve%20conceptual%20integrity%2C%20a%20design%20must%20proceed%20from%20one%20mind%20or%20a%20small%20group%20of%20agreeing%20minds.&author=Fred%20Brooks" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"If you need more than 3 levels of indentation, you're screwed anyway, and should fix your program."
-- Linus Torvalds
+"To achieve conceptual integrity, a design must proceed from one mind or a small group of agreeing minds."
+- Fred Brooks
 ```
 
 </details>
