@@ -2,7 +2,7 @@ name: Update Dev Quote
 
 on:
   schedule:
-    - cron: "41 */6 * * *"
+    - cron: "41 * * * *"
   workflow_dispatch:
   push:
     branches:
