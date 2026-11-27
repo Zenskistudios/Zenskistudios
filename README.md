@@ -146,15 +146,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Software%20is%20a%20discipline%20of%20detail%2C%20and%20that%20is%20a%20deep%2C%20horrendous%20fundamental%20problem%20with%20software.&author=L.%20Peter%20Deutsch" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Software%20engineering%20is%20the%20part%20of%20computer%20science%20which%20is%20too%20difficult%20for%20the%20computer%20scientist.&author=Friedrich%20Bauer" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"Software is a discipline of detail, and that is a deep, horrendous fundamental problem with software."
-- L. Peter Deutsch
+"Software engineering is the part of computer science which is too difficult for the computer scientist."
+- Friedrich Bauer
 ```
 
 </details>
