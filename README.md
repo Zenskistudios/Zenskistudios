@@ -146,15 +146,15 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Coding%20is%20%2290%20percent%20finished%22%20for%20half%20of%20the%20total%20coding%20time.%20Debugging%20is%20%2299%20percent%20complete%22%20most%20of%20the%20time.&author=Fred%20Brooks" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Computer%20languages%20of%20the%20future%20will%20be%20more%20concerned%20with%20goals%20and%20less%20with%20procedures%20specified%20by%20the%20programmer.&author=Marvin%20Minsky" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"Coding is "90 percent finished" for half of the total coding time. Debugging is "99 percent complete" most of the time."
-- Fred Brooks
+"Computer languages of the future will be more concerned with goals and less with procedures specified by the programmer."
+- Marvin Minsky
 ```
 
 </details>
