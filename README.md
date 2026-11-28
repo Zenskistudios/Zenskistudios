@@ -146,14 +146,14 @@
 
 <!-- QUOTE:START -->
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=To%20achieve%20conceptual%20integrity%2C%20a%20design%20must%20proceed%20from%20one%20mind%20or%20a%20small%20group%20of%20agreeing%20minds.&author=Fred%20Brooks" alt="Dev quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&quote=Coding%20is%20%2290%20percent%20finished%22%20for%20half%20of%20the%20total%20coding%20time.%20Debugging%20is%20%2299%20percent%20complete%22%20most%20of%20the%20time.&author=Fred%20Brooks" alt="Dev quote" />
 </p>
 
 <details>
 <summary>📋 Copy quote</summary>
 
 ```text
-"To achieve conceptual integrity, a design must proceed from one mind or a small group of agreeing minds."
+"Coding is "90 percent finished" for half of the total coding time. Debugging is "99 percent complete" most of the time."
 - Fred Brooks
 ```
 
